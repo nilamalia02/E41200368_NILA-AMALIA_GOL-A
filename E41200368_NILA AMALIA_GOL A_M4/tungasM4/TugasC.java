@@ -25,8 +25,8 @@ public class TugasC {
         int minimum = array[0];
         int maksimum = array[0];
         
-        for(int j =0 ; j<=0; j++){
-            if (array[j] < minimum) minimum = array[j];
+        for(int j =0 ; j<=3; j++){
+            if (array[j] < minimum ) minimum = array[j];
             if (array[j] > maksimum ) maksimum = array[j];   
             }
         for(int k =0 ;k < array.length; k++){
@@ -45,3 +45,5 @@ public class TugasC {
     
     }
 }
+
+
